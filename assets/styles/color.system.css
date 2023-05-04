@@ -1,0 +1,315 @@
+:root {
+
+  /* membrane & others */
+  --membrane-bg: #eceff1 !important;
+  --membrane-1-bg: #cfd8dc !important;
+  --membrane-2-bg: #b0bec5 !important;
+  --membrane-3-bg: #90a4ae !important;
+  --membrane-4-bg: #78909c !important;
+  --membrane-fg: #000000 !important;
+
+  /* nucleus + nucleus-variant */
+  --nucleus-bg: #303f9f !important;
+  --nucleus-variant-bg: #03a9f4 !important;
+  --nucleus-variant-gr: #4fc3f7 !important;
+  --nucleus-variant-pulse-1: rgba(3, 169, 244, 1) !important;
+  --nucleus-variant-pulse-0: rgba(3, 169, 244, 0) !important;
+  --nucleus-fg: #ffffff !important;
+
+  /* erratum */
+  --erratum-bg: #FF1744 !important;
+  --erratum-gr: #ff5252 !important;
+  --erratum-fg: #ffffff !important;
+  
+  --cytoplasm-bg: #5c6bc0 !important;
+  --cytoplasm-gr: #9fa8da !important;
+  --cytoplasm-fg: #ffffff !important;
+  --cytoplasm-variant-bg: #90a4ae !important;
+  --cytoplasm-variant-gr: #b0bec5 !important;
+  --cytoplasm-variant-fg: #000000 !important;
+  
+  --disabled-bg: #90a4ae !important;
+  --disabled-gr: #b0bec5 !important;
+  --disabled-fg: #cfd8dc99 !important;
+
+  --ribosome-red-bg: #FF1744 !important; 
+  --ribosome-orange-bg: #ff6d00 !important; 
+  --ribosome-yellow-bg: #f9a825 !important; 
+  --ribosome-green-bg: #00C853 !important; 
+  --ribosome-blue-bg: #03a9f4 !important; 
+  --ribosome-indigo-bg: #3d5afe !important; 
+  --ribosome-purple-bg: #ea80fc !important; 
+
+  --ribosome-fg: #ffffff !important; 
+
+  --black: #000000 !important;
+  --white: #FFFFFF !important;
+  --transparent: transparent !important;
+}
+
+[data-theme="indigo-dark"] {
+  /* membrane & others */
+  --membrane-bg: #212121 !important;
+  --membrane-1-bg: #263238 !important;
+  --membrane-2-bg: #37474f !important;
+  --membrane-3-bg: #455a64 !important;
+  --membrane-4-bg: #546e7a !important;
+  --membrane-fg: #ffffff !important;
+
+  /* nucleus + nucleus-variant */
+  --nucleus-bg: #303f9f !important;
+  --nucleus-variant-bg: #03a9f4 !important;
+  --nucleus-variant-gr: #4fc3f7 !important;
+  --nucleus-variant-pulse-1: rgba(3, 169, 244, 1) !important;
+  --nucleus-variant-pulse-0: rgba(3, 169, 244, 0) !important;
+  --nucleus-fg: #ffffff !important;
+
+  /* erratum */
+  --erratum-bg: #FF1744 !important;
+  --erratum-gr: #ff5252 !important;
+  --erratum-fg: #ffffff !important;
+  
+  --cytoplasm-bg: #5c6bc0 !important; 
+  --cytoplasm-gr: #9fa8da !important;
+  --cytoplasm-fg: #ffffff !important;
+  --cytoplasm-variant-bg: #90a4ae !important;
+  --cytoplasm-variant-gr: #b0bec5 !important;
+  --cytoplasm-variant-fg: #000000 !important;
+  
+  --disabled-bg: #90a4ae !important;
+  --disabled-gr: #b0bec5 !important;
+  --disabled-fg: #cfd8dc99 !important;
+
+  --ribosome-red-bg: #FF1744 !important; 
+  --ribosome-orange-bg: #ff6d00 !important; 
+  --ribosome-yellow-bg: #f9a825 !important; 
+  --ribosome-green-bg: #00C853 !important; 
+  --ribosome-blue-bg: #03a9f4 !important; 
+  --ribosome-indigo-bg: #3d5afe !important; 
+  --ribosome-purple-bg: #ea80fc !important; 
+
+  --ribosome-fg: #ffffff !important; 
+
+  --black: #000000 !important;
+  --white: #FFFFFF !important;
+  --transparent: transparent !important;
+}
+
+[data-theme="purple-light"] {
+  /* membrane & others */
+  --membrane-bg: #eceff1 !important;
+  --membrane-1-bg: #cfd8dc !important;
+  --membrane-2-bg: #b0bec5 !important;
+  --membrane-3-bg: #90a4ae !important;
+  --membrane-4-bg: #78909c !important;
+  --membrane-fg: #000000 !important;
+
+  /* nucleus + nucleus-variant */
+  --nucleus-bg: #6200ea !important;
+  --nucleus-variant-bg: #ff9800 !important;
+  --nucleus-variant-gr: #ffb74d !important;
+  --nucleus-variant-pulse-1: rgba(255, 152, 0, 1) !important;
+  --nucleus-variant-pulse-0: rgba(255, 152, 0, 0) !important;
+  --nucleus-fg: #ffffff !important;
+
+  /* erratum */
+  --erratum-bg: #FF1744 !important;
+  --erratum-gr: #ff5252 !important;
+  --erratum-fg: #ffffff !important;
+  
+  --cytoplasm-bg: #03a9f4 !important; 
+  --cytoplasm-gr: #81d4fa !important;
+  --cytoplasm-fg: #ffffff !important;
+  --cytoplasm-variant-bg: #90a4ae !important;
+  --cytoplasm-variant-gr: #b0bec5 !important;
+  --cytoplasm-variant-fg: #000000 !important;
+  
+  --disabled-bg: #90a4ae !important;
+  --disabled-gr: #b0bec5 !important;
+  --disabled-fg: #cfd8dc99 !important;
+
+  --ribosome-red-bg: #FF1744 !important; 
+  --ribosome-orange-bg: #ff6d00 !important; 
+  --ribosome-yellow-bg: #f9a825 !important; 
+  --ribosome-green-bg: #00C853 !important; 
+  --ribosome-blue-bg: #03a9f4 !important; 
+  --ribosome-indigo-bg: #3d5afe !important; 
+  --ribosome-purple-bg: #ea80fc !important; 
+
+  --ribosome-fg: #ffffff !important; 
+
+  --black: #000000 !important;
+  --white: #FFFFFF !important;
+  --transparent: transparent !important;
+}
+
+[data-theme="purple-dark"] {
+  /* membrane & others */
+  --membrane-bg: #212121 !important;
+  --membrane-1-bg: #263238 !important;
+  --membrane-2-bg: #37474f !important;
+  --membrane-3-bg: #455a64 !important;
+  --membrane-4-bg: #546e7a !important;
+  --membrane-fg: #ffffff !important;
+
+  /* nucleus + nucleus-variant */
+  --nucleus-bg: #6200ea !important;
+  --nucleus-variant-bg: #ff9800 !important;
+  --nucleus-variant-gr: #ffb74d !important;
+  --nucleus-variant-pulse-1: rgba(255, 152, 0, 1) !important;
+  --nucleus-variant-pulse-0: rgba(255, 152, 0, 0) !important;
+  --nucleus-fg: #ffffff !important;
+
+  /* erratum */
+  --erratum-bg: #FF1744 !important;
+  --erratum-gr: #ff5252 !important;
+  --erratum-fg: #ffffff !important;
+  
+  --cytoplasm-bg: #03a9f4 !important; 
+  --cytoplasm-gr: #81d4fa !important;
+  --cytoplasm-fg: #ffffff !important;
+  --cytoplasm-variant-bg: #90a4ae !important;
+  --cytoplasm-variant-gr: #b0bec5 !important;
+  --cytoplasm-variant-fg: #000000 !important;
+  
+  --disabled-bg: #90a4ae !important;
+  --disabled-gr: #b0bec5 !important;
+  --disabled-fg: #cfd8dc99 !important;
+
+  --ribosome-red-bg: #FF1744 !important; 
+  --ribosome-orange-bg: #ff6d00 !important; 
+  --ribosome-yellow-bg: #f9a825 !important; 
+  --ribosome-green-bg: #00C853 !important; 
+  --ribosome-blue-bg: #03a9f4 !important; 
+  --ribosome-indigo-bg: #3d5afe !important; 
+  --ribosome-purple-bg: #ea80fc !important; 
+
+  --ribosome-fg: #ffffff !important; 
+
+  --black: #000000 !important;
+  --white: #FFFFFF !important;
+  --transparent: transparent !important;
+}
+
+/* classes */
+
+.membrane {
+  background-color: var(--membrane-bg);
+  color: var(--membrane-fg);
+}
+.membrane-1 {
+  background-color: var(--membrane-1-bg);
+  color: var(--membrane-fg);
+}
+.membrane-2 {
+  background-color: var(--membrane-2-bg);
+  color: var(--membrane-fg);
+}
+.membrane-3 {
+  background-color: var(--membrane-3-bg);
+  color: var(--membrane-fg);
+}
+.membrane-4 {
+  background-color: var(--membrane-4-bg);
+  color: var(--membrane-fg);
+}
+
+.nucleus {
+  background-color: var(--nucleus-bg);
+  color: var(--nucleus-fg);
+}
+.nucleus-variant {
+  background-color: var(--nucleus-variant-bg);
+  color: var(--nucleus-fg);
+}
+.nucleus-variant-gr {
+  background: linear-gradient(60deg, var(--nucleus-variant-bg), var(--nucleus-variant-gr));
+  background-color: var(--nucleus-variant-bg);
+  color: var(--nucleus-fg);
+}
+
+.erratum {
+  background-color: var(--erratum-bg);
+  color: var(--erratum-fg);
+}
+.erratum-gr {
+  background: linear-gradient(60deg, var(--erratum-bg), var(--erratum-gr));
+  color: var(--erratum-fg);
+}
+
+.cytoplasm {
+  background-color:var(--cytoplasm-bg);
+  color:var(--cytoplasm-fg)
+}
+.cytoplasm-gr {
+  background: linear-gradient(60deg, var(--cytoplasm-bg), var(--cytoplasm-gr));
+  color: var(--cytoplasm-fg)
+}
+.cytoplasm-variant {
+  background-color:var(--cytoplasm-variant-bg);
+  color:var(--cytoplasm-variant-fg)
+}
+.cytoplasm-variant-gr {
+  background: linear-gradient(60deg, var(--cytoplasm-variant-bg), var(--cytoplasm-variant-gr));
+  color: var(--cytoplasm-variant-fg)
+}
+
+button:disabled {
+  background-color: var(--disabled-bg);
+  color: var(--disabled-fg);
+}
+[class$="-gr"]:disabled {
+  background: linear-gradient(60deg, var(--disabled-bg), var(--disabled-gr));
+  color: var(--disabled-fg);
+}
+
+.ribosome-red {
+  background-color: var(--ribosome-red-bg);
+  color: var(--ribosome-fg);
+}
+.ribosome-orange {
+  background-color: var(--ribosome-orange-bg);
+  color: var(--ribosome-fg);
+}
+.ribosome-yellow {
+  background-color:var(--ribosome-yellow-bg);
+  color: var(--ribosome-fg);
+}
+.ribosome-green {
+  background-color:var(--ribosome-green-bg);
+  color: var(--ribosome-fg);
+}
+.ribosome-blue {
+  background-color:var(--ribosome-blue-bg);
+  color: var(--ribosome-fg);
+}
+.ribosome-indigo {
+  background-color:var(--ribosome-indigo-bg);
+  color: var(--ribosome-fg);
+}
+.ribosome-purple {
+  background-color:var(--ribosome-purple-bg);
+  color: var(--ribosome-fg);
+}
+
+.ribosome-red-fg {
+  color: var(--ribosome-red-bg);
+}
+.ribosome-orange-fg {
+  color: var(--ribosome-orange-bg);
+}
+.ribosome-yellow-fg {
+  color:var(--ribosome-yellow-bg);
+}
+.ribosome-green-fg {
+  color:var(--ribosome-green-bg);
+}
+.ribosome-blue-fg {
+  color:var(--ribosome-blue-bg);
+}
+.ribosome-indigo-fg {
+  color:var(--ribosome-indigo-bg);
+}
+.ribosome-purple-fg {
+  color:var(--ribosome-purple-bg);
+}
